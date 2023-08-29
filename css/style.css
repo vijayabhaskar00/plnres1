@@ -2049,18 +2049,18 @@ section.pricing {
   }
   
   img {
-    cursor: pointer;
-    width: 100%;
+    /* cursor: pointer; */
+    /* width: 100%; */
     /* max-width: 100%; */
     /* aspect-ratio: 1.5/1; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    height: 100%;
+    /* /* display: flex; 
+    /* /* justify-content: center; 
+    /* align-items: center; */ 
+    /* text-align: center; */
+    /* height: 100%;
     color: white;
     border-radius: 10px;
-    transition: all 0.3s ease;
+    transition: all 0.3s ease; */
   }
   img:hover {
     transform: scale(1.05);
