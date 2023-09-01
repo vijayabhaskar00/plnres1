@@ -1124,8 +1124,10 @@ textarea:focus {box-shadow: none; outline: 0}
 .gallery-img {
   float: left;
   padding: 10px;
-  width: 25%;
+  width: 100%;
   overflow: hidden;
+  margin: 20px 0 0 0;
+  border: 1px solid #9e9e9e;
 }
 .gallery-img img,.ht-blog-img img,.ht-event-img img,.ht-cause-img img{
     width: 100%;
