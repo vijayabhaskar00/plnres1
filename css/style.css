@@ -136,10 +136,10 @@ ul{
 :-ms-input-placeholder { /* IE 10+ */color: #969696;}
 :-moz-placeholder { /* Firefox 18- */color: #969696;}
 .default-btn {
-  background: #fc2c62 none repeat scroll 0 0;
-  border: 1px solid #fc2c62;
+  background: #ffffff none repeat scroll 0 0;
+  border: 1px solid #ffffff;
   border-radius: 25px;
-  color: #ffffff;
+  color: #000000;
   display: inline-block;
   font-family: "Lato",sans-serif;
   font-size: 14px;
@@ -162,8 +162,8 @@ ul{
     color: #fc2c62;
 }
 .default-btn.btn-white{
-    background: #fff;
-    color: #181818;
+    background: #000000;
+    color: #ffffff;
     border-color:#fff;
 }
 .default-btn.btn-white:hover{
@@ -445,11 +445,11 @@ textarea:focus {box-shadow: none; outline: 0}
 	background-size: cover; 
 	position: relative; 
 }
-.bg-1 { background-image: url("../img/bg/1.jpg");}
+.bg-1 { background-image: url("../img/bg/indian.png");}
 .bg-2 { background-image: url("../img/bg/2.jpg");}
 .bg-3 { background-image: url("../img/bg/3.jpg");}
-.bg-4 { background-image: url("../img/bg/4.jpg");}
-.bg-5 { background-image: url("../img/bg/5.jpg");}
+.bg-4 { background-image: url("../img/bg/indian2.png");}
+.bg-5 { background-image: url("../img/bg/bg10.png");}
 .overlay-dark-1, .overlay-dark-2, .gradient-overlay {position: relative;}
 .overlay-dark-1::after, .overlay-dark-2::after, .overlay-dark-3::after, .overlay-dark-4::after, .overlay-dark-5::after {
     background: rgba(33, 33, 33, 0.85) none repeat scroll 0 0;
@@ -1379,7 +1379,7 @@ input.email:focus {background: #393939 none repeat scroll 0 0;}
 /*  14.3 Help Two Area
 /*----------------------------------------*/
 .ht-video-bg {
-  background: rgba(0, 0, 0, 0) url("../img/banner/1.jpg") repeat scroll center top / cover ;
+  background: rgba(0, 0, 0, 0) url("../img/bg/plnres2.png") repeat scroll center top / cover ;
   height: 521px;
   margin-right: 54px;
   position: relative;
