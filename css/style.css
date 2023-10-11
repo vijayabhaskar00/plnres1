@@ -2096,3 +2096,17 @@ section.pricing {
   .load-image:hover {
     opacity: 1;
   }
+
+  .hs-responsive-embed-youtube {
+    position: relative;
+    padding-bottom: 40%; /* 16:9 Aspect Ratio */
+    padding-top: 0px;
+    height: 0;
+    }
+    .hs-responsive-embed-youtube iframe {
+    width: 100%!important;
+    height: 100%!important;
+    position: absolute;
+    left: 0;
+    top: 0;
+    }
